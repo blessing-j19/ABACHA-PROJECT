@@ -1,40 +1,93 @@
 * {
     font-family:   'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 .header {
     background-color: #f05334;
-    color: white;
-    padding: 0 50px;
-    
+    padding: 15px 0;
+    position: fixed; 
+    width: 100%;
 }
+
+.logo-image-container {
+    display: inline;
+    text-align: left;
+}
+
 .logo-image {
+    width: 3%;
+    float: left;
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+.navbar {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 90px;
     display: inline-block;
 }
-.logo-image img {
-    width: 5%;
-    padding: 10px;
+.navbar-link {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
 }
-.nav-links {
-    display:inline-block ;
-    padding: 10px;
+.img-container {
+    margin: 0 100px;
 }
 .main-image {
-    width: 75%;
-    margin: 0 150px;
+    width: 100%;
     border-bottom: #f05334 solid 15px;
+}
+.body {
+    margin-left: 30px;
+    line-height: 60px;
+    font-size: x-large;
+    margin: 20px 100px;
 }
 .about-title {
     color: #f05334;
     text-align: center;
 }
 .about-paragraph {
-    margin: 70px;
-    line-height: 40px;
-    text-size-adjust: bold;
+    text-align: justify;
 }
 .ingredients {
     color: #f05334;
 }
+
+.prepare-container {
+    background-color: #f05334;
+    padding: 30px 50px;
+    text-align: center;
+    color: white;
+}
+.subscribe-container {
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+    line-height: 40px;
+}
+
+.subscribe-container input.email {
+    margin-top: 20px;
+    border: none;
+    border-bottom: #f05334 solid 2px;
+    font-size: x-large;
+}
+
+.subscribe-container input.btn {
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    /* font-size: x-large; */
+    background-color: #f05334;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+
 .footer {
     text-align: center;
     background-color: black;
